@@ -1,0 +1,11 @@
+{
+    "type": "mariadb",
+    "username": "root",
+    "host": "localhost",
+    "port": 3306,
+    "password": "",
+    "database": "blognest",
+    "synchronize": true,
+    "logging": true,
+    "entites": ["src/**/**.entity.{ts,js}"]
+}
